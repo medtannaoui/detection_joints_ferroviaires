@@ -1,0 +1,7 @@
+data/
+models/
+resultats/
+visualistaion_history/
+vitesses/
+*.pyc
+visualisation.py
