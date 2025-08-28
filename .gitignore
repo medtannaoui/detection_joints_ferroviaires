@@ -1,6 +1,5 @@
 data/
 models/
-visualistaion_history/
 vitesses/
 *.pyc
 visualisation.py
