@@ -140,13 +140,6 @@ if True:
                 X,Y = np.array(mels[0][key]),np.array(labels[0][key])
 
     
-
-    print(f"shape des données est {X.shape} et la distribution des classes esr {np.bincount(Y)}")
-
-
-
-
-
     #prétraitement des donnees
     X,Y,class_weights,pca,scaler = fct.pretrait(X,Y,n_components=0.95,
                                                 apply_norm=True,
