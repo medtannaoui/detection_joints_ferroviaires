@@ -199,7 +199,7 @@ if True:
                 metrics = [AUCSeq(name="auc",num_classes=2),
                             F1ScoreSeq(name="f1_score",mode="frame",num_classes=nbr_classes),
                             #PrecisionSeq(name="Precision",mode="frame",num_classes=nbr_classes),
-                            #RecallSeq(name="recall",mode="frame",num_classes=nbr_classes)
+                            RecallSeq(name="recall",mode="frame",num_classes=nbr_classes)
                         ])  
 
 
