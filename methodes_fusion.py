@@ -7,6 +7,7 @@ class BehaviorKnowledgeSpace:
     Implémentation de la méthode BKS (Behavior Knowledge Space) pour la fusion de classificateurs.
     Elle utilise une table de correspondance entre combinaisons de prédictions et étiquettes réelles.
     """
+    
     def __init__(self, precision=2):
         self.precision = precision
         self.table = {}
