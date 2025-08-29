@@ -74,7 +74,7 @@ pip install ipython==8.18.1
 Pour lancer un entrainement il suffit de modifier le fichier train_joint :
     - Fixer les paramétres des caractéristiques ( les variables situés en haut du code ).
     - Fixer les paramétres du modèles à utiliser ( nombre de filtre, nombre de couches, taux d'apprentissage utilisé, batch size , etc... )
-    - Faire un entrainmenet avec un TCN sur le signal brut en controlan la liste des dilations.
+    - Faire un entrainmenet avec un TCN sur le signal brut en controlan la liste des dilations avec le fichier tcn_train.py.
 ```
 ## Après entrainement
 
